@@ -1,0 +1,7 @@
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+pbcopy < ~/.ssh/funnelenvy.pub
+
+this will genarate key
+
+ssh-add -K ~/.ssh/id_rsa
