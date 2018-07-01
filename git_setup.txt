@@ -1,7 +1,15 @@
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+## git setup
 
-pbcopy < ~/.ssh/funnelenvy.pub
+- ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
-this will genarate key
+- pbcopy < ~/.ssh/funnelenvy.pub
 
-ssh-add -K ~/.ssh/id_rsa
+- this will genarate key
+
+- ssh-add -K ~/.ssh/id_rsa
+
+## git commit 
+- git add .
+- git commit -m "message here"
+- git push
+
